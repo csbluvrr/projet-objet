@@ -137,6 +137,7 @@ p {
             width: 100%;
         }
     </style>
+    <link rel="icon" type="image/x-icon" href="images\hopitallogo.png">
 </head>
 <body>
     <!-- Navbar -->
