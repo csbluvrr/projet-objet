@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(0, 32, 128);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+input {
+    padding: 5px;
+    width: 95%;
+    border: none;
+    border-radius: 5px;
+}
+button, input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    color: black;
+}

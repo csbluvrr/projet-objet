@@ -1,0 +1,205 @@
+
+
+/* Body Adjustment */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f0;
+    color: black;
+    padding-top: 70px; /* Prevent navbar overlap */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .right-section {
+        margin-top: 10px; /* Add spacing for small screens */
+    }
+}
+
+
+/* Header */
+header {
+    background: linear-gradient(to right, #00334d, #006a7f); /* Green gradient */
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px; /* Adjusted for fixed navbar */
+}
+
+header img {
+    max-height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    flex: 1;
+    font-size: 24px;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #00314d;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+header a:hover {
+    background-color: #003d7f;
+}
+
+/* Profile Section */
+.profile-section {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.info-container {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #00174d;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.info-container h2 {
+    color: #00427f;
+    margin-bottom: 10px;
+}
+
+/* Buttons and Links */
+.button-container a {
+    display: block; /* Stack buttons vertically */
+    margin: 20px auto; /* Center the buttons and add spacing */
+    padding: 20px 40px; /* Increase padding for larger buttons */
+    width: 70%; /* Make buttons wider */
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    border-radius: 10px; /* Rounder corners */
+    text-align: center;
+    font-size: 1.5rem; /* Larger font for better visibility */
+    font-weight: bold;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-decoration: none; /* Remove underline */
+}
+
+.button-container a:hover {
+    background-color: rgb(0, 64, 128); /* Change background to green on hover */
+    color: white; /* Keep text white */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Center the button container */
+.button-container {
+    text-align: center;
+    margin: 40px 0; /* Increase margin for spacing */
+}
+
+
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #00707f;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #00154d;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #002d4d;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #002c5f; /* Darker green */
+}
+
+/* Forms */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000d4d;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00124d;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #003b7f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00334d;
+}
+
+/* Footer */
+footer {
+    background-color: #00214d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.popup {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.popup-message {
+    position: fixed;
+    top: 50%; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Offset for centering */
+    background-color: #4c4eaf;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
