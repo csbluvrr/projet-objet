@@ -47,7 +47,7 @@ if (isset($_GET['search'])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/x-icon" href="images\\emsiicon.png">
+    <link rel="icon" type="image/x-icon" href="images\hopitallogo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient List</title>
@@ -212,6 +212,7 @@ if (isset($_GET['search'])) {
             100% { opacity: 0; display: none; }
         }
     </style>
+    
 </head>
 <body>
     <!-- Navbar -->
