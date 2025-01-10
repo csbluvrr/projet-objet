@@ -3,8 +3,9 @@ session_start();
 include 'conndatabase.php';
 
 // Ensure the user is logged in
-if (!isset($_SESSION['admin_id'])) {
-    header("Location: index.php"); // Redirect to login page if not logged in
+if (!isset($_SESSION['admin_email'])) {
+    // Redirect to home.php if not logged in
+    header("Location: home.php");
     exit();
 }
 
