@@ -1,4 +1,4 @@
-name dyal databate: hopitaldb <br />
+name of the databate: hopitaldb <br />
 CREATE TABLE admins ( <br />
     cin CHAR(8) PRIMARY KEY, <br />
     firstname VARCHAR(50) NOT NULL, <br />
@@ -37,4 +37,5 @@ CREATE TABLE rendezvous (
     id_patient CHAR(8) NOT NULL,   <br />
     id_doctor CHAR(8) NOT NULL  <br />
 ); <br />
-derou hadou exactly f phpmyadmin with the same names bach ikhdem likoum lcode
+you have to make these tables exactly so that the code works  <br />
+also you have to create a new user in php my admin the username is jimmimoo and the password is 123456 (the user should have all rights)
